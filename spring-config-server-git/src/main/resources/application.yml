@@ -5,23 +5,9 @@ spring:
   cloud:
     config:
       server:
-        encrypt:
-          enabled: false
         git:
-          uri: https://github.com/rseroter/pluralsight-spring-cloudconfig-wa-tolls # default
-          #username: abc
-          #password: abc
+          uri: https://github.com/apukap/Juggled # default
+          #username: apukap
+          #password: apukap
           search-paths:
             - 'centralFilling'
-          #repos:
-             #local:
-                #pattern: '*/local'
-                #uri: https://github.com/rseroter/pluralsight-spring-cloudconfig-wa-tolls-local # alt
-                #search-paths:
-                 #- 'station*'
-#security:
-  #basic:
-    #enabled: true
-  #user:
-    #name: apukap
-    #password: apukap
