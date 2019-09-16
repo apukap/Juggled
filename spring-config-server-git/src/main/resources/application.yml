@@ -12,16 +12,16 @@ spring:
           #username: abc
           #password: abc
           search-paths:
-            - 'station*'
-          repos:
-             local:
-                pattern: '*/local'
-                uri: https://github.com/rseroter/pluralsight-spring-cloudconfig-wa-tolls-local # alt
-                search-paths:
-                 - 'station*'
-security:
-  basic:
-    enabled: true
-  user:
-    name: apukap
-    password: apukap
+            - 'centralFilling'
+          #repos:
+             #local:
+                #pattern: '*/local'
+                #uri: https://github.com/rseroter/pluralsight-spring-cloudconfig-wa-tolls-local # alt
+                #search-paths:
+                 #- 'station*'
+#security:
+  #basic:
+    #enabled: true
+  #user:
+    #name: apukap
+    #password: apukap
